@@ -78,3 +78,8 @@ form input {
   width: 90%;
   word-wrap: break-word;
 }
+
+.red {
+  color: red;
+  background-color: red;
+}
