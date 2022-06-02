@@ -73,7 +73,7 @@ form input {
   margin: 15px;
 }
 
-#card-text {
+.card-text {
   border-style: none;
   width: 90%;
   word-wrap: break-word;
