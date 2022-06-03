@@ -108,13 +108,13 @@ form input {
 }
 
 .fa-trash-can:hover {
-  color: #ff0000;
+  color: #f00;
 }
 
 .fa-ellipsis-vertical:hover,
 .fa-turn-down:hover,
 .fa-arrows-rotate:hover {
-  text-shadow: 1px 3px 2px hsl(215, 20%, 88%), 0 0 25px blue, 0 0 5px darkblue
+  text-shadow: 1px 3px 2px hsl(215, 20%, 88%), 0 0 25px blue, 0 0 5px darkblue;
 }
 
 .checkbox,
@@ -122,13 +122,13 @@ form input {
   cursor: pointer;
 }
 
-.tooltip.tooltiptext{
+.tooltip.tooltiptext {
   width: 160px;
-  bottom:80%;
-  left:40%;
+  bottom: 80%;
+  left: 40%;
   margin-left: 80px;
-  }
+}
 
-.tooltip:hover.tooltiptext{
-  opacity:0;
+.tooltip:hover.tooltiptext {
+  opacity: 0;
 }
