@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Draxeytina/To-do-list#readme",
   "devDependencies": {
+    "@babel/eslint-parser": "^7.18.2",
     "css-loader": "^6.7.1",
     "eslint": "^8.16.0",
     "html-webpack-plugin": "^5.5.0",
