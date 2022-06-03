@@ -1,4 +1,5 @@
 {
+  "requireConfigFile": false,
   "eslint.nodeEnv": "",
   "eslint.workingDirectories": [
     {"mode": "auto"}
