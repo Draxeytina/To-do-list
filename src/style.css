@@ -77,6 +77,7 @@ form input {
 
 .done {
   text-decoration: line-through;
+  color: #f00;
 }
 
 .clear-btn {

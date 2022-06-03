@@ -11,6 +11,7 @@
     "rules": {
     },
     "ignorePatterns":[
-      "src/modules"
+      "src/modules",
+      "dist/"
     ]
 }
