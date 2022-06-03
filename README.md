@@ -9,8 +9,6 @@ This is simple page that handles the organisation of daily tasks.
 ## See Project 🌐
 Follow the link to view the website:
 
-https://draxeytina.github.io/To-do-list/
-
 
 ## Getting Started
 You may setup the project on your local machine using the following steps:
@@ -24,9 +22,9 @@ Optionally you can follow the link under see project above ☝️
 
 ## Author 🖋️
 👤 Tinashe Timothy Murambinda
-* Github: https://github.com/Draxeytina/
-* Twitter: https://twitter.com/tinamura2
-* LinkedIn: https://www.linkedin.com/in/timothy-tinashe-murambinda-192442232/
+* <a href="https://github.com/Draxeytina/">Github</a>
+* <a href="https://twitter.com/tinamura2">Twitter</a>
+* <a href="https://www.linkedin.com/in/timothy-tinashe-murambinda-192442232/">LinkedIn</a>
 
 ## Contributing
 You are welcome to make any contributions, issues, and feature requests!
