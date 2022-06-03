@@ -1,9 +1,10 @@
+/* eslint-disable */
+
 class TaskList {
   constructor() {
     this.tasks = [];
   }
 
-/* eslint-disable */
   getList = () => {
     const list = JSON.parse(localStorage.getItem('tasks'));
     if (list) {
@@ -11,7 +12,6 @@ class TaskList {
     }
     return [];
   };
-/* eslint-enable */
 
   addList = (newTask) => {
     localStorage.setItem('tasks', JSON.stringify(newTask));
