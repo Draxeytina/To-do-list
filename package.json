@@ -18,13 +18,14 @@
   "bugs": {
     "url": "https://github.com/Draxeytina/To-do-list/issues"
   },
-  "homepage": "https://github.com/Draxeytina/To-do-list#readme",
+  "homepage": "https://github.com/Draxeytina/To-do-list/dist/#index.html",
   "devDependencies": {
     "css-loader": "^6.7.1",
     "eslint": "^8.16.0",
     "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.72.1",
-    "webpack-cli": "^4.9.2"
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.1"
   }
 }

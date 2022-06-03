@@ -47,14 +47,18 @@ const load = () => {
     });
   });
 
-  // add eventlistener for delete button
-  const buttons = document.querySelectorAll('.deleteList');
-  buttons.forEach((button) => {
-    button.addEventListener('click', () => {
-      const localList = new TaskList();
-      const buttonId = button.getAttribute('id');
-      localList.deleteList(buttonId * 1);
-      load();
+  // add eventlistener for delete button whilst preventing accidental delete
+  const deleteBtn = document.querySelectorAll('.deleteList');
+  deleteBtn.forEach((deleteButton) => {
+  deleteButton.addEventListener('click', () => { 
+    if (confirm("Delete task?")) {
+          const localList = new TaskList();
+          const buttonId = deleteButton.getAttribute('id');
+          localList.deleteList(buttonId * 1);
+          load();
+    } else {
+      alert('Action cancelled!');
+    }
     });
   });
 
