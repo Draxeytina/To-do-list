@@ -10,5 +10,5 @@
     },
     "rules": {
     },
-    "parser": "@babel/eslint-parser"
+    "parser": "react-scripts/node_modules/babel-eslint"
 }
