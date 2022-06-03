@@ -9,5 +9,8 @@
         "sourceType": "module"
     },
     "rules": {
-    }
+    },
+    "ignorePatterns":[
+      "src/modules"
+    ]
 }

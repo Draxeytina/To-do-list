@@ -10,11 +10,21 @@ body {
   justify-content: center;
   margin: auto;
   width: 50%;
-  height: 80vh;
+  height: 100vh;
 }
 
 h1 {
   margin-bottom: 30px;
+}
+
+h1,
+h2 {
+  cursor: default;
+}
+
+h2 {
+  text-align: center;
+  width: 90%;
 }
 
 form {
@@ -57,6 +67,7 @@ form input {
 .fa-solid {
   color: grey;
   background-color: inherit;
+  cursor: pointer;
 }
 
 .border {
@@ -79,7 +90,45 @@ form input {
   word-wrap: break-word;
 }
 
-.red {
-  color: red;
-  background-color: red;
+.edit-form {
+  display: flex;
+  border-bottom: 1px dotted grey;
+  padding: 15px 0;
+  margin: 0 15px;
+  justify-content: space-between;
+  width: 95%;
+}
+
+.check-btn {
+  margin-right: 20px;
+}
+
+.fa-check:hover {
+  color: #44d344;
+}
+
+.fa-trash-can:hover {
+  color: #f00;
+}
+
+.fa-ellipsis-vertical:hover,
+.fa-turn-down:hover,
+.fa-arrows-rotate:hover {
+  text-shadow: 1px 3px 2px hsl(215, 20%, 88%), 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.checkbox,
+.clear-btn {
+  cursor: pointer;
+}
+
+.tooltip.tooltiptext {
+  width: 160px;
+  bottom: 80%;
+  left: 40%;
+  margin-left: 80px;
+}
+
+.tooltip:hover.tooltiptext {
+  opacity: 0;
 }

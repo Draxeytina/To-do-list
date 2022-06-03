@@ -30,5 +30,5 @@ module.exports = {
         use: ['style-loader', 'css-loader'],
       },
     ],
-  },
+  }
 };
