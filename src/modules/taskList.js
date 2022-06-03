@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 class TaskList {
   constructor() {
     this.tasks = [];
