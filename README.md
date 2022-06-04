@@ -8,7 +8,7 @@ This is simple page that handles the organisation of daily tasks.
 
 ## See Project 🌐
 Follow the link to view the website:
-
+https://draxeytina.github.io/To-do-list/
 
 ## Getting Started
 You may setup the project on your local machine using the following steps:
