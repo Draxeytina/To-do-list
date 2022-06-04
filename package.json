@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/Draxeytina/To-do-list/issues"
   },
-  "homepage": "https://github.com/Draxeytina/To-do-list/dist/#index.html",
+  "homepage": "https://github.com/Draxeytina/To-do-list/dist/#readme",
   "devDependencies": {
     "css-loader": "^6.7.1",
     "eslint": "^8.16.0",
