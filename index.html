@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/2e9eda9b73.js" crossorigin="anonymous"></script>
+  <title>TO DO LIST</title>
+<script defer src="main.bundle.js"></script></head>
+<body>
+  <h1 id="h1">To Do List</h1>
+  <div class="wrapper">
+    <section>
+      <div class="list-heading">
+        <h2>Today's To Do:</h2>
+        <button title="Restart the list" type="button" class="refresh-btn border"><i class="fa-solid fa-arrows-rotate"></i></button>
+      </div>
+      <!-- input form -->
+      <form id="list-form">
+        <input type="text" id="add-list" placeholder="Add to your list..." />
+        <button title="Add to the list" id="add" type="submit" class="border"><i class="fa-solid fa-turn-down fa-rotate-90" ></i></button>
+      </form>
+      <!-- list container -->
+      <ul id="list">
+      </ul>
+      <button class="clear-btn" type="button">Clear all completed</button>
+    </section>
+  </div>
+</body>
+</html>
