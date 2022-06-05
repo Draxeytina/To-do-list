@@ -7,10 +7,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   margin: auto;
   width: 50%;
   height: 100vh;
+  margin-top: 37px;
 }
 
 h1 {
@@ -40,6 +40,15 @@ form input {
   width: 100%;
   margin-right: 5px;
   border-style: none;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  padding-right: 45px;
 }
 
 .wrapper {
@@ -132,4 +141,10 @@ form input {
 
 .tooltip:hover.tooltiptext {
   opacity: 0;
+}
+
+@media (max-width: 768px){
+  body {
+    width: 95%;
+  }
 }
