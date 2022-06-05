@@ -42,15 +42,6 @@ form input {
   border-style: none;
 }
 
-footer {
-  display: flex;
-  justify-content: flex-end;
-  position: absolute;
-  width: 100%;
-  bottom: 10px;
-  padding-right: 45px;
-}
-
 .wrapper {
   width: 90%;
   border: 1px grey solid;
