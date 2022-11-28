@@ -86,6 +86,40 @@ const load = () => {
       });
     });
   });
+
+  // Accomodate mobile editing 
+  const longPress = (el, callback, duration) => {
+    let timeOut;
+
+    const start = () => timeOut = window.setTimeout(callback, duration);
+
+    const end = () => window.clearTimeout(timeOut);
+
+    el.addEventListener('touchstart', start);
+    el.addEventListener('touchend', end);
+  }
+
+  listLi.forEach((list) => {
+    longPress(list, () => {
+      const localList = new TaskList();
+      const todoListsLocal = localList.getList();
+      const editId = list.getAttribute('id') * 1;
+      list.classList.remove('card')
+      list.classList.add('edit-form')
+      list.innerHTML = `
+        <input class="card-text" type="text" id="input-edit${editId}" value="${todoListsLocal[editId].description}">
+        <button title="Add edited" type ="button" class="check-btn" id="edit${editId}"> <i class="fa-solid fa-check"></i></button>
+      `;
+      const editForm = document.querySelector(`#edit${editId}`);
+      editForm.addEventListener('click', (event) => {
+        event.preventDefault();
+        const editValue = document.querySelector(`#input-edit${editId}`);
+        localList.editTask(editId, editValue.value);
+        load
+        ();
+      });
+    },600)
+  })
 };
 
 load();
