@@ -120,6 +120,10 @@ const load = () => {
       });
     },600)
   })
+
+  // Add to-do list count
+  const count = document.getElementById('listCount');
+  listLi.length ? count.innerText = listLi.length : count.innerText = 'Nil';
 };
 
 load();
