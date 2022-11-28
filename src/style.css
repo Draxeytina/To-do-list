@@ -138,4 +138,14 @@ form input {
   body {
     width: 95%;
   }
+
+  .completed {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .completed p{
+    padding: 15px;
+    margin: 15px;
+  }
 }
