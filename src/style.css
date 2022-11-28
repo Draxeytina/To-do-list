@@ -42,6 +42,15 @@ form input {
   height: 20px;
 }
 
+button {
+  border: none;
+  border-radius: 23px;
+}
+
+button:hover {
+  background: none;
+}
+
 .wrapper {
   width: 90%;
   border: 1px grey solid;
@@ -114,7 +123,8 @@ form input {
 
 .fa-ellipsis-vertical:hover,
 .fa-turn-down:hover,
-.fa-arrows-rotate:hover {
+.fa-arrows-rotate:hover,
+button:hover {
   text-shadow: 1px 3px 2px hsl(215, 20%, 88%), 0 0 25px blue, 0 0 5px darkblue;
 }
 
@@ -134,18 +144,32 @@ form input {
   opacity: 0;
 }
 
+.completed {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.completed p{
+  padding: 15px;
+  margin: 15px;
+}
+
+.completedCount {
+  display: flex;
+  align-items: center;
+}
+
+.completedCount p {
+  padding: 5px;
+  padding-left: 15px;
+}
+
 @media (max-width: 768px){
   body {
     width: 95%;
   }
 
-  .completed {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .completed p{
-    padding: 15px;
-    margin: 15px;
+  .completedCount p {
+    padding: 5px;
   }
 }
