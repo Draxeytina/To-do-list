@@ -124,6 +124,11 @@ const load = () => {
   // Add to-do list count
   const count = document.getElementById('listCount');
   listLi.length ? count.innerText = listLi.length : count.innerText = 'Nil';
+
+  // Add completed tasks count
+  const completedCount = document.getElementById('completedNumber');
+  const counted = tasks.filter((list) => list.completed == true);
+  counted && tasks != 0 ? completedCount.innerText = counted.length : completedCount.innerText = 'N/A';
 };
 
 load();
