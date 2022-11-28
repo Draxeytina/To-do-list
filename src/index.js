@@ -131,17 +131,21 @@ form.addEventListener('submit', (event) => {
   event.preventDefault();
   const localList = new TaskList();
   const value = document.querySelector('#add-list');
-  const todoListLocal = localList.getList();
-  const addList = {
-    description: value.value,
-    completed: false,
-    index: todoListLocal.length + 1,
-  };
+  if(value.value == ''){
+    window.alert('List item empty');
+  } else {
+    const todoListLocal = localList.getList();
+    const addList = {
+      description: value.value,
+      completed: false,
+      index: todoListLocal.length + 1,
+    };
 
-  todoListLocal.push(addList);
-  localList.addList(todoListLocal);
-  value.value = '';
-  load();
+    todoListLocal.push(addList);
+    localList.addList(todoListLocal);
+    value.value = '';
+    load();
+  }
 });
 
 // add event listener to clear button
