@@ -12,7 +12,7 @@
   <div class="wrapper">
     <section>
       <div class="list-heading">
-        <h2>Today's To Do:</h2>
+        <h2>Today's Tasks: <span id="listCount"></span></h2>
         <button title="Restart the list" type="button" class="refresh-btn border"><i class="fa-solid fa-arrows-rotate"></i></button>
       </div>
       <!-- input form -->
@@ -23,7 +23,12 @@
       <!-- list container -->
       <ul id="list">
       </ul>
-      <button class="clear-btn" type="button">Clear all completed</button>
+      <div class="completed">
+        <div class="completedCount">
+          <p>Completed: <span id="completedNumber"></span></p>
+        </div>
+        <button class="clear-btn" type="button">Clear Completed</button>
+      </div>
     </section>
   </div>
 </body>
