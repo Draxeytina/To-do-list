@@ -1,5 +1,5 @@
 # TO DO LIST
-This is simple page that handles the organisation of daily tasks.
+This is a single paged application that handles the organisation of daily tasks.
 
 ## Built With
 - HTML5
